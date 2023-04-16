@@ -1,0 +1,109 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+    
+    font-family: 'Poppins', sans-serif;
+    list-style-type:none;
+    background-color: antiquewhite;
+}
+body{
+    overflow-x: hidden; 
+
+}
+
+header{
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+header ul{
+    background-color: white;
+}
+header ul li {
+    display: inline-block;
+    margin: 0px 20px;
+    background-color: white;  
+}
+
+header ul li a {
+    color: black;
+    background-color: white;
+    text-decoration: none;
+}
+.header ul .navbar a:hover{
+    color: #0e159b;
+}
+
+.content{
+    padding-top: 20px;
+}
+
+.instrumentpicker{
+    width: 120px;
+    margin: 10px auto;
+    display: flex;
+    background-color: aquamarine;
+    justify-content: space-around;
+}
+.instrumentpicker a{
+    text-decoration: none;
+    color: black;
+}
+.instrumentpicker.inst{
+    float: left;
+    width: 30px;
+}
+.gitar{
+    font-size:24px;
+    background-color: #a0fefb;
+    border-radius: 5px;
+    border:3px solid #a0fefb
+}
+.davul{
+    margin-left: 20px; 
+    font-size:24px; 
+    background-color: #494fc1;
+    border-radius: 5px;
+    border:3px solid #494fc1
+}
+.piyano{
+    margin-left: 20px; 
+    font-size:24px;
+    background-color: #fd084a;
+    border-radius: 5px;
+    border:3px solid #fd084a
+}
+
+.gitar:hover{
+    border:3px solid #4cd3ce ;
+    transition: 1s;
+}
+.davul:hover{
+    border:3px solid #0e159b ;
+    transition: 1s;
+}
+.piyano:hover{
+    border:3px solid #8d082c ;
+    transition: 1s;
+}
+
+
+
+.gitarsection{
+    width: 100%;
+    background-color:#a0fefb;
+    
+}
+.davulsection{
+    width: 100%;
+    background-color: #494fc1;
+    
+}
+.piyanosection{
+    width: 100%;
+    background-color: #fd084a;
+    
+}
